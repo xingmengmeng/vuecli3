@@ -7,5 +7,6 @@ module.exports = {
                 changeOrigin: true,
             }
         }
-    }
+    },
+    lintOnSave: false,//禁止 eslint 警告
 }

@@ -18,7 +18,7 @@ export default {
   },
   mounted() {
     regionDistributed().then(res => {
-
+      console.log(1)
     })
   }
 }

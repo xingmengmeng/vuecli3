@@ -1,5 +1,10 @@
 # vuecli3
 
+## 环境
+```
+node:10.13.0      vue-cli 3   vue 2
+```
+
 ## Project setup
 ```
 npm install

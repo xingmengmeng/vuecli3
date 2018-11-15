@@ -1,0 +1,2 @@
+export const PAGE_CHANGE = 'PAGE_CHANGE';
+export const TO_DEFAULT_PAGE = 'TO_DEFAULT_PAGE';

@@ -20,7 +20,7 @@ export default {
     regionDistributed({ id: 3 }).then(res => {
       console.log(1)
     })
-    list({ id: 3, name: 'vivian' });
+    list({ start: '2016-07', end: '2018-02' });
   }
 }
 </script>

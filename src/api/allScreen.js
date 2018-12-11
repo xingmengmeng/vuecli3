@@ -6,3 +6,12 @@ export const regionDistributed = async data => {
 export const list = async data => {
   return await fetch.post('/api/list', data)
 }
+export const insert = async data => {
+  return await fetch.post('/api/insert', data)
+}
+export const update = async data => {
+  return await fetch.post('/api/update', data)
+}
+export const deletes = async data => {
+  return await fetch.delete('/api/deletes', data)
+}

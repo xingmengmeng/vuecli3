@@ -20,11 +20,11 @@ export default {
     regionDistributed({ id: 3 }).then(res => {
       console.log(1)
     })
-    /* list({ start: '2016-07', end: '2018-02' });
-    //insert({ kpi: 110, month: "2016-06", system: "myf" })\
+    list({ start: '2016-07', end: '2018-02' });
+    insert({ kpi: 110, month: "2016-06", system: "myf" })
     update({ kpi: 200, month: "2016-06", system: "myf" }).then(res => {
       regionDistributed();
-    }) */
+    })
     deletes({ month: '2016-06' }).then(res => {
       regionDistributed();
     })

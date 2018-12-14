@@ -3,6 +3,7 @@ import Router from 'vue-router'/* 引用vue路由模块，并赋值给变量Rout
 Vue.use(Router)/* 使用路由 */
 
 const Home = resolve => require(['@/views/Home'], resolve);
+const Websocket = resolve => require(['@/views/Websocket'], resolve);
 
 export default new Router({
   mode: 'history', // 如果不配置 mode，就会使用默认的 hash 模式，该模式下会将路径格式化为 #! 开头。
@@ -11,6 +12,7 @@ export default new Router({
   linkExactActiveClass: 'exact-active', // 配置当链接被精确匹配的时候应该激活的 class
   routes: [/* 进行路由配置，规定“/”引入到某个组件 */
     { path: '/', name: 'home', component: Home },
+    { path: '/socket', name: 'socket', component: Websocket },
   ]
 })
 /* 说明：如果需要增加组件
